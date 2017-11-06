@@ -7,27 +7,21 @@
     android:layout_height="match_parent"
     tools:context="com.example.helio.android_praticas.MainActivity">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="83dp"
-        android:text="Hello World!"
-        android:layout_marginRight="43dp"
-        android:layout_marginEnd="43dp"
-        android:layout_marginTop="60dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignRight="@+id/button"
-        android:layout_alignEnd="@+id/button" />
+    <ListView
+        android:id="@+id/listView_students"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"/>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_newStudent"
         android:layout_width="wrap_content"
-        android:layout_height="79dp"
-        android:text="Button"
-        android:layout_marginLeft="110dp"
-        android:layout_marginStart="110dp"
-        android:layout_below="@+id/textView"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_height="wrap_content"
+        android:text="@string/NewStudent"
+        android:layout_margin="18dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
 
 </RelativeLayout>

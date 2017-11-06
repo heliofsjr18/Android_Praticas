@@ -1,0 +1,13 @@
+<resources>
+    <string name="NovoEstudante">Novo Estudante</string>
+    <string name="SalvarNovoEstudante">Salvar Novo Estudante</string>
+    <string name="NomeEstudante">Nome</string>
+    <string name="CursoEstudante">Curso</string>
+    <string name="Disciplina">Disciplina</string>
+    <string-array name="Cursos">
+        <item>ADS</item>
+        <item>Eng. Elétrica</item>
+        <item>Eng. Computação</item>
+        <item>Direito</item>
+    </string-array>
+</resources>

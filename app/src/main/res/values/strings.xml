@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Android_Praticas</string>
+    <string name="NewStudent">New Student</string>
+    <string name="saveNewStudent">Save New Student</string>
+    <string name="StudentName">Name</string>
+    <string name="Course">Course</string>
+    <string name="Discipline">Discipline</string>
+    <string-array name="Courses">
+        <item>ADS</item>
+        <item>Eng. Elétrica</item>
+        <item>Eng. Computação</item>
+        <item>Direito</item>
+    </string-array>
 </resources>
